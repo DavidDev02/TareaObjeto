@@ -14,6 +14,8 @@ const Yo = {
 
 const familyArray = [Madre, Yo];
 
-console.log(familyArray);
-
+for (let index = 0; index < familyArray.length; index++) {
+    console.log(familyArray[index]);  
+    
+}
 
